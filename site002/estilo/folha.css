@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    padding: 20px;
+}
+
+div{
+    width: 50%;
+    max-width: 500px;
+    height: 500px;
+    padding: 10px;
+    
+    margin: auto;
+    display: block;
+    position: absolute;
+    align-items: center;
+}
+img{
+    width: 95%;
+    padding: 30px;
+    width: 96vw;
+    
+}
