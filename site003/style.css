@@ -14,10 +14,11 @@ html{
 body{
     height: 100vh;
     background-image: url(imagens/1655175929420.jpg);
-    
+    background-repeat: repeat-x;
     background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+    background-position: 100%;
+    background-size: contain;
+
     
 
 }
@@ -41,6 +42,8 @@ h1.nome{
     color: blueviolet;
     font-variant:small-caps ;
     text-shadow: 2px 2px 2px black;
+    width: 70%;
+    margin: auto;
 }
 h1.nome:hover, header > p:hover{
     background-color: rgba(0, 0, 0, 0);
@@ -53,7 +56,14 @@ header > p{
     
 }
 
-
+main{
+    height: 100vh;
+    background-image: url(imagens/1655175929420.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-size: contain;
+}
 
 h1{
     color: rgb(199, 170, 8);
