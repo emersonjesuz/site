@@ -12,7 +12,9 @@ html{
     background-color: rgba(0, 0, 0, 0.949);
 }
 body{
+    height: 100vh;
     background-image: url(imagens/1655175929420.jpg);
+    
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -29,7 +31,7 @@ header{
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.744);
 }
- p  {
+p  {
     color: rgb(243, 241, 236);
     font-size: 1em;
 }
@@ -48,7 +50,9 @@ header > p{
     text-align: center;
     font-size: 1em;
     padding-bottom: 5px;
+    
 }
+
 
 
 h1{
