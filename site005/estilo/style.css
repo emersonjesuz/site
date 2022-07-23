@@ -26,6 +26,7 @@ main#conteiner{/* esse é o conteiner que esta dando limtação pro conteudo*/
 header {
   background-color: black;
   box-shadow:0px 3px 10px rgba(250, 250, 249, 0.538);
+  width: 100%;
 }
 nav.nav-bar{
     display: flex;
@@ -603,9 +604,10 @@ footer{
     html body{
         margin: 0%;
         padding: 0%;
+        width: 97vw;
     }
     #conteiner{
-        width: 100vw;
+        width: 90vw;
         margin: auto;
     }
     nav.nav-bar{
@@ -665,7 +667,7 @@ footer{
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.568);
     }  
     div.mapas{
-        width: 100%;
+        width: 410px;
         padding: 20px;
         background-color: rgb(8, 8, 8);
         padding-bottom: 40px;
