@@ -531,12 +531,7 @@ footer{
         border: 2px solid black;
     }
     /*aqui fica as configurações da imagem do criador do free fire */   
-    div.flex-img-txt{
     
-        
-        
-
-    }
     img.img-mapas{
         width: 40%;
         height: 40%;
@@ -605,64 +600,136 @@ footer{
 
 }
 @media(max-width:654px){
-   
-div.mapas{
-    width: 100%;
-    padding: 20px;
-    background-color: rgb(8, 8, 8);
-    padding-bottom: 40px;
-    margin: auto;
+    html body{
+        margin: 0%;
+        padding: 0%;
+    }
+    #conteiner{
+        width: 100vw;
+        margin: auto;
+    }
+    nav.nav-bar{
+        padding: 30px 20px;
+    }
+    img.icon{
+        width: 30px;
+    }
+    main{
+        padding: 0px;
+        margin: auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    section#garena {
+        display: block;
+        width: 80%;
+        
+        border: 4px solid rgb(105, 36, 36);
+        margin:  auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        /*aqui é a coixa que sentraliza a logo e o texto sobre a garena */
+    }
     
-    /*aqui é a configuração da caixa dos mapas  */
-}
-
-div.flex-img-txt{
-    display: flex;
-    height: 500px;
-    margin: auto;
+    div.div-txt-garena{
+        background-color: black;
+        font-weight: 100px;
+        border-radius: 10px 10px 10px 10px ;
+        /*aqui fica o texto sobre a garena*/
+    }
+    section#garena  p{
+        text-indent: 40px;
+        font-style: italic;
+        padding: 30px;
+        font-size: 11px;
+        color: rgba(180, 170, 170, 0.836);
+    }
+    div#div-img-garena #logo-garena{
+        width: 100%
+        /*aqui fica a logo da garena*/
+    }
+    #logo-garena{
+        width: 100%;
+    }
     
-    align-content: flex-end;
-
-    background-color: rgb(0, 0, 0);
-/* é a caixa de todos os mapas */
-}
-div.mapas p{
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    /*texto superior que fala sobre o mapa */
-}
-img.img-mapas{
-    width: 40%;
-    height: 30%;
-    padding: 20px;
-
-/*aqui é as imagens dos mapas */
-}
-h2{
-    color: rgb(194, 102, 102);
-    /*o h2 é o subtitulo dos mapas */
-}
-div.mapas  ul{
     
-    position: relative;
-
-    top: 0%;
-    left: -10%;
-
-    padding: 20px 10px ;
-    font-size: 20px;
-
-    height: 50%;
-    width: 80%;
-
+    img#logo-garena{
+        width: 90%;
     
-    color: rgba(255, 255, 255, 0.978);
-    /*aqui é referente ao texto com o nome das cidades*/
-}
-div.mapas ul>li{
-    padding: 5px;
-    font-size: 10px;
-}
-/*aqui trata as cidades de cada mapa*/
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+    
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.568);
+    }  
+    div.mapas{
+        width: 100%;
+        padding: 20px;
+        background-color: rgb(8, 8, 8);
+        padding-bottom: 40px;
+        margin: auto;
+        
+        /*aqui é a configuração da caixa dos mapas  */
+    }
+  
+    
+    div.flex-img-txt{
+        display: flex;
+        height: 100%;
+        margin: auto;
+        
+        align-content: flex-end;
 
+        background-color: rgb(0, 0, 0);
+    /* é a caixa de todos os mapas */
+    }
+    div.mapas p{
+        padding: 20px;
+        color: rgb(255, 255, 255);
+        /*texto superior que fala sobre o mapa */
+    }
+    img.img-mapas{
+        width: 40%;
+        height: 30%;
+        padding: 20px;
+
+    /*aqui é as imagens dos mapas */
+    }
+    h2{
+        color: rgb(194, 102, 102);
+        /*o h2 é o subtitulo dos mapas */
+    }
+    div.mapas  ul{
+        
+        position: relative;
+
+        top: 0%;
+        left: -10%;
+
+        padding: 20px 10px ;
+        font-size: 20px;
+
+        height: 50%;
+        width: 80%;
+
+        
+        color: rgba(255, 255, 255, 0.978);
+        /*aqui é referente ao texto com o nome das cidades*/
+    }
+    div.mapas ul>li{
+        padding: 5px;
+        font-size: 10px;
+    }
+    /*aqui trata as cidades de cada mapa*/
+    #caixa-rank ul li{
+        font-size: 15px;
+    }
+    #caixa-rank ul{
+        padding: 0px 0px;
+    }
+    samp{
+        font-size: 15px;
+    }
 }
