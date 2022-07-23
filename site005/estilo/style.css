@@ -667,11 +667,13 @@ footer{
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.568);
     }  
     div.mapas{
-        width: 410px;
-        padding: 20px;
+        width: 98%;
+        padding: 20px 0px 20px 5px;
+
         background-color: rgb(8, 8, 8);
         padding-bottom: 40px;
-        margin: auto;
+        margin: 0px;
+        align-items: center;
         
         /*aqui é a configuração da caixa dos mapas  */
     }
@@ -688,14 +690,14 @@ footer{
     /* é a caixa de todos os mapas */
     }
     div.mapas p{
-        padding: 20px;
+        padding: 10px 0px ;
         color: rgb(255, 255, 255);
         /*texto superior que fala sobre o mapa */
     }
     img.img-mapas{
         width: 40%;
         height: 30%;
-        padding: 20px;
+        padding:0px  20px 0px 0px;
 
     /*aqui é as imagens dos mapas */
     }
@@ -710,7 +712,7 @@ footer{
         top: 0%;
         left: -10%;
 
-        padding: 20px 10px ;
+        padding: 20px 20px ;
         font-size: 20px;
 
         height: 50%;
