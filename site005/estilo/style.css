@@ -375,7 +375,7 @@ div.mapas  ul{
 div.mapas ul>li{
     padding: 5px;
     align-items: center;
-    color: rgb(84, 84, 89);
+    color: rgb(134, 134, 138);
     margin: auto;
     width: 200px;
 }
@@ -1053,6 +1053,12 @@ footer{
     }
     p.txt-2-da-logogarena{
         margin: auto;
+    }
+    div.flex-img-txt{
+        padding: 20px;
+    }
+    div.mapas ul>li{
+        width: 90px;
     }
     div.patente{
         width: 100%;
