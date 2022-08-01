@@ -375,7 +375,8 @@ div.mapas  ul{
 div.mapas ul>li{
     padding: 5px;
     align-items: center;
-    color: rgb(134, 134, 138);
+    color: rgb(195, 195, 198);
+    font-weight: 500;
     margin: auto;
     width: 200px;
 }
