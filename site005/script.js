@@ -19,7 +19,7 @@ function menuShow(){
 
 
 function bronze(){
-     document.querySelector('#rank-patente'). src='imagens/img-patente/bronze-tiers-where-we-start-each-season-1761.jpg'
+     document.querySelector('#rank-patente'). src='imagens/img-patente/bronze.png'
      let patente1=document.querySelector('.img-patente');
 
      if(patente1.classList.contains('ptt1')){
@@ -40,7 +40,7 @@ function bronze(){
 
 }
 function prata(){
-    document.querySelector('#rank-patente'). src='imagens/img-patente/images (15).jpeg'
+    document.querySelector('#rank-patente'). src='imagens/img-patente/prata.png'
     let patente2 = document.querySelector('.img-patente')
 
     if(patente2.classList.contains('ptt2')){
@@ -60,7 +60,7 @@ function prata(){
     
 }
 function ouro(){
-    document.querySelector('#rank-patente'). src='imagens/img-patente/images (16).jpeg'
+    document.querySelector('#rank-patente'). src='imagens/img-patente/ouro.png'
     let patente3 = document.querySelector('.img-patente')
 
     if(patente3.classList.contains('ptt3')){
@@ -82,7 +82,7 @@ function ouro(){
 
 }
 function platina(){
-    document.querySelector('#rank-patente'). src='imagens/img-patente/images (17).jpeg'
+    document.querySelector('#rank-patente'). src='imagens/img-patente/Platina.png'
     let patente4 = document.querySelector('.img-patente')
 
     if(patente4.classList.contains('ptt4')){
@@ -103,7 +103,7 @@ function platina(){
 
 }
 function dima(){
-    document.querySelector('#rank-patente'). src='imagens/img-patente/images (18).jpeg'
+    document.querySelector('#rank-patente'). src='imagens/img-patente/diamante.jpg'
     let patente5 = document.querySelector('.img-patente')
 
     if(patente5.classList.contains('ptt5')){
@@ -125,7 +125,7 @@ function dima(){
 }
 
 function mestre(){
-    document.querySelector('#rank-patente'). src='imagens/img-patente/heroic-rank-the-highest-category-in-free-fire-1761.jpg'
+    document.querySelector('#rank-patente'). src='imagens/img-patente/mestre.png'
 
     let patente6 = document.querySelector('.img-patente')
 
@@ -146,7 +146,7 @@ function mestre(){
     }
 }
 function elite(){
-    document.querySelector('#rank-patente'). src='imagens/elite.jpg'
+    document.querySelector('#rank-patente'). src='imagens/img-patente/elite.png'
     let patente7 = document.querySelector('.img-patente')
 
     if(patente7.classList.contains('ptt7')){
@@ -167,7 +167,7 @@ function elite(){
 
 }
 function desafiante(){
-    document.querySelector('#rank-patente'). src='imagens/img-patente/grand-master-rank-only-for-the-best-300-players-in-the-world-1761.jpg'
+    document.querySelector('#rank-patente'). src='imagens/img-patente/Desafiante.png'
 
     let patente8 = document.querySelector('.img-patente')
 

@@ -595,7 +595,6 @@ samp#desafiante{
     border: 2px solid rgb(0, 0, 0);
     margin: auto;
 }
-
 footer{
     background-color: rgba(0, 0, 0, 0.989);
     
@@ -1058,8 +1057,13 @@ footer{
     div.flex-img-txt{
         padding: 20px;
     }
+    div.mapas > p{
+        padding: 40px 10px ;
+        text-indent: 10px;
+    }
     div.mapas ul>li{
         width: 90px;
+        font-size: 15px;
     }
     div.patente{
         width: 100%;
